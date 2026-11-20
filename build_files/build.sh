@@ -14,7 +14,8 @@ cp -avf "/ctx/system_files"/. /
 
 # this installs a package from fedora repos
 dnf5 install -y \
-  eza fd helix tmux zsh \
+  eza fd-find ripgrep tmux zsh \
+  helix helix-themes helix-parsers \
   qemu-system-x86
 dnf5 install -y --enablerepo=brave-browser \
   brave-origin
